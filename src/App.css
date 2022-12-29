@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+nav{
+  display: flex;
+  justify-content:space-around;
+  background-color: lightgrey;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  margin-left: 44%;
+}
+input{
+  margin-bottom: 10px;
+}
+button{
+  cursor: pointer;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
